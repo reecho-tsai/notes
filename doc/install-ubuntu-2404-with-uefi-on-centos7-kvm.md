@@ -16,4 +16,4 @@ sudo apt install virt-manager
 
 ## 升级 qemu-kvm
 
-qemu 中，要求使用 Q35 机器才可以提供 UEFI 支持。
+qemu 中，要求使用 Q35 机器才可以提供 UEFI 支持。CentOS 7 yum 源的 qemu 并不支持这一功能，所以需要先卸载自带的 qemu-kvm 之后编译安装较为新版本的 qemu。我安装的是 qemu 7.2，这个版本中已经把 qemu-kvm 合入 qemu-system-x86。编译安装的部分从略，缺啥配啥吧，没办法。
