@@ -22,7 +22,7 @@ qemu 中，要求使用 Q35 机器才可以提供 UEFI 支持。CentOS 7 yum 源
 
 ## 安装 UEFI 固件
 
-对于 UEFI 这种西洋景、摩登物，CentOS 的源百分之一万是没有的。实在是不想编译了，在互联网的角落找到了一个可以安装的 RPM：https://oraclelinux.pkgs.org/8/ol8-appstream-x86_64/edk2-ovmf-20220126gitbb1bba3d77-13.el8_10.noarch.rpm.html。下载安装之。
+对于 UEFI 这种西洋景、摩登物，CentOS 的源百分之一万是没有的。实在是不想编译了，在互联网的角落找到了一个可以安装的 RPM：https://oraclelinux.pkgs.org/8/ol8-appstream-x86_64/edk2-ovmf-20220126gitbb1bba3d77-13.el8_10.noarch.rpm.html 。下载安装之。
 
 ## 配置 SELinux
 
